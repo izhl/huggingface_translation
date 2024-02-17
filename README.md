@@ -1,7 +1,10 @@
 # huggingface_translation
  huggingface translation
+ 
 运行：python main.py
+
 调用：post访问127.0.0.1:3678/translation
+
 请求数据：
 
 {
@@ -21,5 +24,7 @@
 }
 
 ⚠️注意：
+
 1、Docker化尚未成功，程序部署需安装transformers及相关依赖过程比较漫长且繁琐
+
 2、该程序当前仅支持英语（en）对各语言的互相翻译
