@@ -1,3 +1,4 @@
+# https://github.com/huggingface/transformers/blob/main/docker/transformers-pytorch-gpu/Dockerfile
 FROM nvidia/cuda:12.1.0-cudnn8-devel-ubuntu20.04
 LABEL maintainer="Hugging Face"
 
