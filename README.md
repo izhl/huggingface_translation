@@ -3,12 +3,15 @@
 运行：python main.py
 调用：post访问127.0.0.1:3678/translation
 请求数据：
+
 {
     "from_lang":"en",
     "to_lang":"zh",
     "content":"You can use the 🤗 Transformers library with the translation_xx_to_yy pattern where xx is the source language code and yy is the target language code. The default model for the pipeline is t5-base which under the hood adds a task prefix indicating the task itself, e.g. “translate: English to French”."
 }
+
 返回数据：
+
 {
     "code": 1,
     "msg": "success",
